@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Spermatophyta</string>
+    <string name="link2">
+        <a href="https://youtu.be/ymTnpJ9pFe4">Video Siklus Hidup Angiospermae</a>
+    </string>
+    <string name="link1">
+    <a href="https://youtu.be/Wo0NUeyzMzU">Video Siklus Hidup Gymnospermae  </a>
+    </string>
 </resources>
