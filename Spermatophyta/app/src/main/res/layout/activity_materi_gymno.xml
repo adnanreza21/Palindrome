@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".materi.MateriGymnoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="Gymnospermae "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="2. Gymnospermae "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Gymnospermae meliputi konifera, cicadae, ginkgo, dan gnetophyta dimana banyak beradaptasi dengan baik pada iklim kering. Ovulanya terbentuk dalam strobili pada kerucut berkayu (Cecie Star dkk, 2009: 429). Gymnospermae berasal dari bahasa Yunani terdiri dari 2 kata yaitu gymnos “telanjang” dan sperma “biji”. Tumbuhan berbiji terbuka memiliki ciri khas pada bijinya tidak dilindungi oleh struktur buah. Biji Gymnospermae terekspos pada daun yang membentuk runjung (Campbell et al, 2008: 187). "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Struktur reproduksi gymnospermae adalah runjung yang ovula atau calon bijinya terletak di sisik-sisik runjung yang terbuka (George H. Fried, 2005: 338). "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Contoh spesies dari kelompok gymnospermae, sebagai berikut:"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Menurut Campbell et al (2008: 188-189) secara taksonomi, Gymnospermae dibagi menjadi empat divisi, sebagai berikut:"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="1) Divisi Cycadophyta"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Cycadophyta adalah tumbuhan Gymnospermae paling primitive dan tertua yang merupakan kelompok terbesar kedua setelah Pinophyta. Hingga sekarang, Cycadophyta yang masih tersisa berkisar 130 spesies. Kelompok ini memiliki ciri rumah dua yaitu terdapat tumbuhan jantan dan tumbuhan betina, berkembangbiak menggunakan runjung atau strobilus. Pada tumbuhan jantan memiliki tongkol dengan ukuran besar dengan kotak berbeda serbuk sari. Sedangkan pada tumbuhan betina memiliki runjung yang pipih. Contoh: Cycas rumpii (pakis haji). "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="2) Divisi Ginkgophyta"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Contoh spesies dari Ginkgophyta adalah Ginkgo biloba. Gingkgo biloba merupakan satu-satunya spesies anggota Ginkgophyta yang masih hidup dengan ciri-ciri tinggi pohon yang kadang mencapai 28-30 meter dengan diameter batang lebih dari 1 meter. Ciri lain dari spesies ini yaitu daun menggerombol berbentuk kipas seperti suplir dan tulang daun mirip seperti rusuk yang menonjol. Spesies ini merupakan tumbuhan rumah dua yaitu terdapat tumbuhan jantan dan betina, dimana tumbuhan jantan memiliki strobilus yang berukuran kecil sedangkan pada strobilus betina memiliki struktur sederhana, berdaging, dan terlihat seperti arbei saat sudah masak. Contoh: Ginkgo biloba."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="3) Divisi Pinophyta"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Spesies dari kelompok ini merupakan kelompok terbesar dari gymnospermae, contohnya adalah Podocarpus sp. dan Pinus merkusii. Sebagian besar tumbuhan ini merupakan tumbuhan yang mempertahankan daun-daunnya sepanjang tahun dan memiliki ciri khas pohon besar berkayu. Tumbuhan dari kelompok ini menghasilkan biji yang berkembang di dalam strobilus, beberapa tumbuhannya berumah satu yaitu memiliki strobilus jantan dan strobilus betina pada tumbuhan yang sama. Contoh: Pinus sp."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="4) Divisi Gnetophyta "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Tumbuhan dari kelompok ini terdiri dari tiga genus yaitu Gnetum, Ephedra, dan Welwitschia. Gnetum terdiri dari spesies berupa semak dan pohon, daunnya mirip dengan daun kelompok tumbuhan berbunga. Contoh spesies dari genus Gnetum adalah Gnetum gnemon (melinjo). Genus Ephedra hidup diseluruh dunia pada daerah kering, berupa tumbuhan semak yang menghasilkan efedrin yang dapat digunakan dalam obat-obatan sebagai dekongestan. Contoh: Gnetum gnemon (melinjo)."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Siklus Hidup Gymnospermae "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_245sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbrdaurangios" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Klik tombol dibawah ini untuk mengetahui contoh - contoh tumbuhan gymnospermae!"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/but1"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:background="@drawable/button_green"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="@dimen/_6sdp"
+            android:text="Contoh Tumbuhan Gymnospermae"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp" />
+    </LinearLayout>
+
+</ScrollView>

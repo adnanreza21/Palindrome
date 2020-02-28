@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".materi.MateriAngiosActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="Angiospermae "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="3. Angiospermae "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Angiospermae merupakan tumbuhan paling bervariasi yang memiliki bunga dan mengalami koevolusi dengan hewan polinator. Ovula terbungkus di dalam ovarium bunga dewasa yang kemudian menjadi buah. Pembuahan ganda menghasilkan endosperm dalam biji (Cecie Star dkk, 2009: 429). Tumbuhan berbiji tertutup (Angiospermae) merupakan tumbuhan biji yang menghasilkan struktur reproduktif atau yang dikenal sebagai bunga dan buah. Angiospermae berasal dari bahasa Yunani dari kata angion yang berarti wadah, maksudnya biji yang memiliki ciri khas bakal biji terbungkus oleh bakal buah sehingga biji terletak di dalam bakal buah. Angiospermae dibagi menjadi dua kelas yang berbeda yaitu Liliopsida (tumbuhan berkeping satu) dan Magnoliopsida (tumbuhan berkeping dua) ( Tjitrosoepomo, 2013: 33)."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Siklus hidup Angiospermae dimulai ketika tumbuhan (sporofit dewasa) menghasilkan organ bunga yang matang. Bunga sporofit di dalam proses reproduksinya memiliki bagian fertil yaitu alat kelamin jantan berupa benang sari dan alat kelamin betina berupa putik (Campbell et al, 2008: 194).  "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Perbedaan Tumbuhan Monokotil dan Dikotil ( Tjitrosoepomo, 2013: 91-92)"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_220sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:src="@drawable/gbrtabel2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Siklus Hidup Angiospermae"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_245sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbrdaurangios" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Keterangan :"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="a. Pohon berkromosom diploid (2n) yang sudah dewasa membentuk putik (alat kelamin betina) dan benang sari (alat kelamin jantan)"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="b. Mikrosporofit (2n) dalam mikrosporangium (2n) mengalami peristiwa meiosis sehingga terbentuk mikrospora (n). Mikrospora akan berkembang menjadi serbuk sari. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="c. Megasporangium (2n) di dalamnya terdapat Megasporosit (2n), megasporosit ini akan mengalami meiosis menghasilkan megaspore (n). Megaspore akan membelah secara mitosis berulang-ulang dan tumbuh menjadi jaringan gametofit betina. Gametofit betina terdiri dari sel-sel antipodal, sel tengah, sinergid, dan sel telur (n)."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="d. Proses penyerbukan yaitu jatuhnya serbuk sari ke kepala putik kemudian inti sel dalam serbuk sari akan membelah menjadi inti vegetatif, inti generative 1, dan inti generative 2. Kemudian serbuk sari akan berkecambah membentuk tabung serbuk sari sebagai jalan menuju kantong embrio. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="e. Setelah mengalami pembelahan maka inti vegetatif berperan sebagai penunjuk jalan bagi kedua inti generative menuju kantong embrio."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="f. Tiba di kantong embrio maka inti generative 1 akan membuahi ovum dan membentuk zigot (2n), sedangkan inti generative 2 membuahi inti kandung lembaga sekunder membentuk endosperm."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="g. Zigot tumbuh dan berkembang menjadi embrio calon individu baru dengan mengambil cadangan makanan yaitu endosperm. Endosperm menjadi sumber makanan pertama pada proses perkecambahan biji. Pada perkembangannya terdapat struktur yang meliputi embrio, endosperma, dan selaput biji yang disebut biji. Ketika bakal biji tumbuh menjadi biji, ovarium akan berkembang menjadi buah yang melindungi biji. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Klik tombol dibawah ini untuk mengetahui contoh - contoh tumbuhan angiospermae!"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/but1"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:background="@drawable/button_green"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Contoh Tumbuhan Angiospermae"
+            android:padding="@dimen/_6sdp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp" />
+    </LinearLayout>
+
+</ScrollView>

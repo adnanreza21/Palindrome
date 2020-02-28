@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".ResultQuizActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_alignParentTop="true"
+
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/txt22"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:text="LATIHAN SOAL"
+            android:textSize="@dimen/_23sdp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_marginTop="@dimen/_70sdp"
+            android:gravity="center"
+            android:layout_below="@id/txt22"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_37sdp"
+            android:text="Nilaimu : "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textScore"/>
+
+        <Button
+            android:textAllCaps="false"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_below="@id/textScore"
+            android:id="@+id/but1"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/colorPrimary"
+            android:text="Try Again"
+            android:background="@drawable/custom_button"
+            android:layout_width="@dimen/_120sdp"
+            android:onClick="onClick"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</ScrollView>

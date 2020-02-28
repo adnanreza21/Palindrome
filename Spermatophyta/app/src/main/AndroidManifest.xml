@@ -9,19 +9,45 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".materi.MlimaActivity"></activity>
+        <activity android:name=".contoh.ContohActivity"></activity>
+        <activity android:name=".contoh.AngiosMusaActivity" />
+        <activity android:name=".contoh.AngiosAloeActivity" />
+        <activity android:name=".contoh.AngiosCathaActivity" />
+        <activity android:name=".contoh.AngiosAdeniumActivity" />
+        <activity android:name=".contoh.AngiosSolanumActivity" />
+        <activity android:name=".contoh.AngiosCapsiActivity" />
+        <activity android:name=".contoh.AngiosEuphoActivity" />
+        <activity android:name=".contoh.AngiosManihotActivity" />
+        <activity android:name=".contoh.ContohPinusActivity" />
+        <activity android:name=".contoh.ContohGnetumActivity" />
+        <activity android:name=".contoh.ContohCycasActivity" />
+        <activity android:name=".contoh.ContohAngiosActivity" />
+        <activity android:name=".contoh.ContohGymnoActivity" />
+        <activity android:name=".materi.Mlima4Activity" />
+        <activity android:name=".materi.Mlima3Activity" />
+        <activity android:name=".materi.Mlima2Activity" />
+        <activity android:name=".materi.MateriBungaActivity" />
+        <activity android:name=".silabus.TujuanActivity" />
+        <activity android:name=".silabus.IndikatorActivity" />
+        <activity android:name=".silabus.KompetensiActivity" />
+        <activity android:name=".ResultQuizActivity" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".materi.MateriAngiosActivity" />
+        <activity android:name=".materi.MateriGymnoActivity" />
+        <activity android:name=".materi.MateriSpermaActivity" />
+        <activity android:name=".materi.MlimaActivity" />
         <activity android:name=".materi.MenuMateriActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".SilabusActivity" />
         <activity android:name=".VideoActivity" />
-        <activity android:name=".SplashActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
