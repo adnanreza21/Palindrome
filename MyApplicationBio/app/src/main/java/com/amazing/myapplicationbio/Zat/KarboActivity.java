@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.amazing.myapplicationbio.R;
+
 public class KarboActivity extends AppCompatActivity {
 
     @Override

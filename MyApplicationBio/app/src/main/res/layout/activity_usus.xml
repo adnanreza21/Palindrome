@@ -1,9 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Organ.UsusActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bluetext"
+            android:text="Organ Pencernaan Manusia"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="4. Usus halus (intestinum tenue)"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_180sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbr6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Usus halus merupakan kompartemen kanal alimentaris terpanjang dengan panjang 6 mm. Bagian 25 cm pertama atau lebih dari usus halus membentuk duodenum, persilangan jalur utama digesti. Disinilah kimus dari lambung bercampur dengan getah – getah pencernaan dari pankreas, hati, kantung empedu, serta sel kelenjar dari usus halus sendiri (Campbell, 2012: 42)."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Menurut Arif Priadi ( 2009: 170) Usus halus dibedakan menjadi 3 bagian:"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="a) Duodenum (usus dua belas jari), bagian depan usus halus dengan panjang kira-kira 25 cm, berbentuk U, dan menjadi muara saluran empedu serta pancreas."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="b) Jejunum (usus kosong), bagian kedua usus halus dengan panjang kira-kira 7 m."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="c) Ileum (usus penyerapan), bagian terakir usus halus dengan panjang kira-kira 1 m."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Proses penyerapan makanan di dalam usus halus yaitu sel-sel usus halus menyerap zat makanan yang dibutuhkan oleh tubuh. Material makanan yang tidak digunakan lagi oleh tubuh disalurkan ke usus besar. Pada penyerapan lemak, asam lemak membentuk suatu emulsi dari reaksinya dengan garam empedu. Dalam jonjot usus, asam lemak terpisah dengan garam empedu dan mengikat gliserin membentuk lemak (fosfolipid). Fosfolipid dilepaskan kedalam system getah bening berupa bulatan-bulatan kecil berlapis protein (kilomikron), kemudian dibawa ke vena dekat jantung. Zat lain yaitu vitamin, mineral dan air diabsorbsi oleh pembuluh darah kapiler. Garam empedu yang tersisa masuk ke dalam darah dan dibawa hati membentuk empedu kembali (Arif Priadi, 2009: 170)."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_160sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/tbl3" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/tbl4" />
+
+    </LinearLayout>
+</ScrollView>

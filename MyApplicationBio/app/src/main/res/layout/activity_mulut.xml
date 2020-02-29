@@ -1,9 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Organ.MulutActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bluetext"
+            android:text="Organ Pencernaan Manusia"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="1. Mulut"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Ingesti merupakan cara manusia memasukkan makanan ke dalam tubuh dengan cara ditelan. Mulut dilengkapi dengan beberapa alat tubuh yaitu lidah, gigi dan kelejar saliva (air liur)."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="a. Lidah "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_37sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Lidah berfungsi untuk membolak-balikkan makanan, membantu mendorong makanan saat ditelan, sebagai alat pengecap atau perasa, serta merupakan alat indera yang sensitive terhadap suhu dingin, panas dan tekanan. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="a. Gigi"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_180sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbr2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_37sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Gigi susu merupakan gigi bayi yang pertama kali muncul berjumlah 20, seperti berikut :"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_37sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="1) delapan gigi seri (insisivus/I), untuk memotong makanan;"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_37sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="2) empat gigi taring (caninus/C), untuk mencabik-cabik makanan;"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_37sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="3) delapan gigi geraham untuk mengunyah makanan."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_37sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Pada anak berusia 6-14 tahun, gigi susu akan tanggal dan diganti oleh gigi tetap yang berjumlah 32. Gigi tetap terdiri atas 8 gigi seri, 4 gigi taring, 8 gigi geraham depan (premolar/P), dan 12 gigi geraham belakang (molar/M)"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="c. Kelenjar Saliva"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_37sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Saliva digunakan untuk memudahkan penelanan makanan, membantu mencerna makanan secara kimiawi karena mengandung amylase (ptyalin) dan lipase, serta melindungi selaput mulut terhadap suhu panas atau dingin dan kondisi asam basa."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_37sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:text="Dalam rongga mulut manusia terdapat tiga pasang kelenjar saliva yaitu glandula parotis (menghasilkan saliva dan ludah), glandula sublingualis (menghasilkan air dan lendir), dan glandula submaksilaris (menghasilkan air dan lendir) (Arif Priadi, 2009 : 160)."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,9 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/birurua"
     tools:context=".QuizActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_alignParentTop="true"
+            android:background="@color/bluetext"
+            android:id="@+id/txt22"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:text="Quiz"
+            android:textSize="@dimen/_23sdp"
+            android:textColor="@color/white"/>
+        <LinearLayout
+            android:layout_below="@+id/txt22"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:id="@+id/linear"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:layout_height="fill_parent">
+        </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear"
+            android:layout_marginLeft="@dimen/_2sdp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="@dimen/_2sdp"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:padding="@dimen/_8sdp"
+            android:text="1. Seorang siswa melakukan uji bahan makanan pada makanan A. Saat bahan makanan A ditetesi dengan lugol hasil reaksinya berwarna kuning. Ketika di uji menggunakan fehling A dan B hasil reaksinya berwarna merah bata. Pengujian dengan reagen biuret hasil reaksi berwarna ungu. Berdasarkan hasil percobaan uji makanan diatas dapat disimpulkan bahwa makanan A mengandung .... "
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginRight="@dimen/_10sdp" />
+
+        <Button
+            android:id="@+id/answer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_24sdp"
+            android:background="@drawable/custom_but"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="left"
+            android:padding="@dimen/_8sdp"
+            android:text="a. Bahasa pemrograman adalah teknik komunikasi standar untuk mengekspresikan instruksi kepada komputer."
+            android:textAllCaps="false"
+            android:textColor="@color/birutua"
+            android:textSize="@dimen/_14sdp" />
+
+        <Button
+            android:textSize="@dimen/_14sdp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/answer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/answer1"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_24sdp"
+            android:background="@drawable/custom_but"
+            android:gravity="left"
+            android:padding="@dimen/_8sdp"
+            android:text="b. Bahasa pemrograman adalah Bahasa yang rumit."
+            android:textAllCaps="false"
+            android:textColor="@color/birutua"  />
+
+        <Button
+            android:textSize="@dimen/_14sdp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/answer3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/answer2"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_24sdp"
+            android:background="@drawable/custom_but"
+            android:gravity="left"
+            android:padding="@dimen/_8sdp"
+            android:text="c. Bahasa pemrograman adalah teknik komunikasi antar komputer dengan komputer yang lain."
+            android:textAllCaps="false"
+            android:textColor="@color/birutua"  />
+
+        <Button
+            android:textSize="@dimen/_14sdp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/answer4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/answer3"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_24sdp"
+            android:background="@drawable/custom_but"
+            android:gravity="left"
+            android:padding="@dimen/_8sdp"
+            android:text="d. Bahasa pemrograman adalah bentuk Bahasa yang mutakhir."
+            android:textAllCaps="false"
+            android:textColor="@color/birutua" />
+
+        <Button
+            android:textSize="@dimen/_14sdp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/answer5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/answer4"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_24sdp"
+            android:background="@drawable/custom_but"
+            android:gravity="left"
+            android:padding="@dimen/_8sdp"
+            android:text="e.	Bahasa pemrograman adalah teknik komunikasi standar untuk mengekspresikan emosi hati."
+            android:textAllCaps="false"
+            android:textColor="@color/birutua"  />
+
+        <Button
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/quit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/answer5"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:background="@drawable/button_red"
+            android:padding="@dimen/_8sdp"
+            android:text="quit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp" />
+
+    </RelativeLayout>
+
+</ScrollView>

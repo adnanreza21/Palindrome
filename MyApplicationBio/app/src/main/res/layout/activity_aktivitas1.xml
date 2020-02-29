@@ -1,9 +1,254 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Aktivitas.Aktivitas1Activity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bluetext"
+            android:text="Aktivitas 1 - Mengamati"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_23sdp" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_230sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbraktivitas1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Perhatikan kata kunci yang tersedia!"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Pilihlah kata kunci yang berhubungan dengan gambar torso tersebut"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <Button
+            android:id="@+id/pilihan1"
+            android:layout_width="@dimen/_270sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/custom_button"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="left"
+            android:onClick="onClick"
+            android:padding="@dimen/_6sdp"
+            android:text="1. Jantung "
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp" />
+
+        <Button
+            android:id="@+id/pilihan2"
+            android:layout_width="@dimen/_270sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/custom_button"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="left"
+            android:padding="@dimen/_6sdp"
+            android:text="2. Mulut"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp" />
+
+        <Button
+            android:id="@+id/pilihan3"
+            android:layout_width="@dimen/_270sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/custom_button"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="left"
+            android:padding="@dimen/_6sdp"
+            android:text="3. Hati "
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp" />
+
+        <Button
+            android:id="@+id/pilihan4"
+            android:layout_width="@dimen/_270sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/custom_button"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="left"
+            android:padding="@dimen/_6sdp"
+            android:text="4. Kerongkongan "
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp" />
+
+        <Button
+            android:id="@+id/pilihan5"
+            android:layout_width="@dimen/_270sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/custom_button"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="left"
+            android:padding="@dimen/_6sdp"
+            android:text="5. Lambung "
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp" />
+
+        <Button
+            android:id="@+id/pilihan6"
+            android:layout_width="@dimen/_270sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/custom_button"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="left"
+            android:padding="@dimen/_6sdp"
+            android:text="6. Usus halus"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp" />
+
+        <Button
+            android:id="@+id/pilihan7"
+            android:layout_width="@dimen/_270sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/custom_button"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="left"
+            android:padding="@dimen/_6sdp"
+            android:text="7. Empedu"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp" />
+
+        <Button
+            android:id="@+id/pilihan8"
+            android:layout_width="@dimen/_270sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/custom_button"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="left"
+            android:padding="@dimen/_6sdp"
+            android:text="8. Usus Besar"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp" />
+
+        <Button
+            android:id="@+id/pilihan9"
+            android:layout_width="@dimen/_270sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/custom_button"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="left"
+            android:padding="@dimen/_6sdp"
+            android:text="9. Ginjal"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp" />
+
+        <Button
+            android:id="@+id/pilihan10"
+            android:layout_width="@dimen/_270sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/custom_button"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="left"
+            android:padding="@dimen/_6sdp"
+            android:text="10. Anus "
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp" />
+        <Button
+            android:id="@+id/btnlanjut"
+            android:layout_width="@dimen/_270sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/button_red"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:padding="@dimen/_6sdp"
+            android:text="Lanjutkan"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp" />
+    </LinearLayout>
+
+
+</ScrollView>

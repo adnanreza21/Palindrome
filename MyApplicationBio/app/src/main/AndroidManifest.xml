@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.amazing.myapplicationbio">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Aktivitas.Aktivitas4Activity"></activity>
+        <activity android:name=".Aktivitas.Aktivitas3Activity" />
+        <activity android:name=".Aktivitas.Aktivitas2Activity" />
+        <activity android:name=".Aktivitas.Aktivitas1Activity" />
+        <activity android:name=".ProfilMhsActivity" />
+        <activity android:name=".ProfilDosenActivity" />
+        <activity android:name=".Zat.AsamActivity" />
+        <activity android:name=".Zat.AirActivity" />
+        <activity android:name=".Zat.LemakActivity" />
+        <activity android:name=".Zat.VitaminActivity" />
+        <activity android:name=".Zat.MineralActivity" />
+        <activity android:name=".Zat.ProteinActivity" />
+        <activity android:name=".Zat.KarboActivity" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".GangguanActivity" />
+        <activity android:name=".BionutrisiActivity" />
+        <activity android:name=".ProsesSistemActivity" />
+        <activity android:name=".Organ.AnusActivity" />
+        <activity android:name=".Organ.UsusActivity" />
+        <activity android:name=".Organ.LambungActivity" />
+        <activity android:name=".Organ.KerongkonanActivity" />
+        <activity android:name=".Organ.MulutActivity" />
+        <activity android:name=".Organ.HomeOrganActivity" />
+        <activity android:name=".VideoActivity" />
+        <activity android:name=".KDActivity" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".HomeMateriActivity" />
+        <activity android:name=".ProfilActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

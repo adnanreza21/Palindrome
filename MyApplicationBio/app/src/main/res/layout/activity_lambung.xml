@@ -1,9 +1,167 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Organ.LambungActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bluetext"
+            android:text="Organ Pencernaan Manusia"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="3. Lambung"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbr5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Lambung merupakan organ berbentuk J yang terletak di atas perut. Organ pencernaan ini dipenuhi oleh otot dari pembuluh darah. Ukuran lambung dapat berubah bentuk mengikuti postur tubuh manusia dan seberapa makanan yang ada di dalam lambung pada saat makan (Arif Priadi, 2009: 162)"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Setelah dari esophagus, makanan masuk ke lambung. Di dalam lambung terjadi pencernaan mekanik dan kimia.Secara mekanik otot lambung berkontraksi mengaduk-aduk bolus. Secara kimiawi bolus tercampur dengan getah lambung yang mengandung HCl, enzim pepsin, dan renin. Setelah melalui proses pencernaan selama 2-4 jam bolus menjadi bahan berwarna kekuningan yang disebut kimus (bubur usus). Kimus akan masuk sedikit demi sedikit ke dalam usus halus (Kemendikbud, 2014: 152). "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Lambung dibedakan menjadi 3 bagian berdasarkan perbedaan anatomic, histologis dan fungsional:"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_37sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="a. Kardiak adalah bagian lambung yang terletak di atas lubang esofangus."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_37sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="b. Fundus adalah bagian tengah atau utama dari lambung."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_37sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="c. Pylorus, memiliki otot yang tebal daripada lapisan otot polos di fundus dan   korpus yang relative tipis."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Lambung memiliki 3 fungsi, yaitu:"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_37sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="a. Menyimpan makanan yang masuk sampai makanan dapat disalurkan ke usus halus dengan kecepatan yang sesuai untuk pencernaan dan penyerapan yang optimal."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_37sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="b. Lambung mengeluarkan asam hidroklorida (HCL) dan enzim yang memulai pencernaan protein."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_37sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="c. Melalui gerakan mencampur isi lambung, makanan yang tertelan dihaluskan dan dicampur dengan sekresi lambung untuk menghasilkan camouran cairan kental dengan kimus. Isi lambung harus diubah menjadi kimus sebelum dapat dialirkan ke deudenum (Sherwood, 2011: 654-655)"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Senyawa kimia yang dihasilkan lambung"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:src="@drawable/tbl1" />
+
+
+    </LinearLayout>
+
+</ScrollView>

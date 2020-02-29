@@ -1,9 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Zat.LemakActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bluetext"
+            android:text="Zat Makanan"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="3. Lemak (Lipid) "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_185sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbrzatlemak" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Kebutuhan lemak untuk orang dewasa adalah 0,5 – 1 gram/kg.BB/ hari. Lemak yang kita makan bisa berasal dari hewan disebut  lemak hewani atau tumbuhan disebut  lemak nabati. Bahan makanan yang mengandung lemak hewan antara lain daging, telur, susu, ikan, keju, dan mentega. Bahan makanan yang mengandung lemak nabati antara lain kelapa, kemiri, alpukat, durian, biji bunga matahari, kacang tanah, dan kacang-kacangan lainnya. (Kemendikbud, 2013: 141)."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Lemak tersusun atas unsur-unsur karbon (C), hidrogen (H), dan  oksigen (O). Komponen lemak adalah asam lemak dan gliserol. ekitar 95% lemak dalam makanan manusia dalam bentuk trigliserol atau disebut juga trigliserida. Trigliserida terdiri atas tiga asam lemak yang terpaut pada molekul gliserol. Asam lemak dapat dibagi menjadi dua, yaitu asam lemak tak jenuh dan asam lemak jenuh. Asam lemak jenuh banyak terdapat dalam daging, susu, keju, mentega, dan telur. Lemak tak jenuh banyak terdapat dalam minyak kelapa, minyak kedelai, ikan, dan minyak jagung."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Fungsi lemak adalah: "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="1) Sumber energi. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="2) Pelarut beberapa vitamin, yaitu  vitamin A, D, E, dan K. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="3) Pelindung terhadap organ dalam tubuh."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="4) Pelindung tubuh dari suhu rendah. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="5) Cadangan makanan yang tersimpan di bawah kulit. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:text="6) Sebagai komponen bagian sel tertentu, misalnya  membran sel. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+    </LinearLayout>
+
+
+</ScrollView>

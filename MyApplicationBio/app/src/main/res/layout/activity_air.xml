@@ -1,9 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Zat.AirActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txt11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bluetext"
+        android:text="Zat Makanan"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18sdp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="7. Air"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbrzatair" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_1sdp"
+        android:text="Air terdapat dalam jumlah besar pada tubuh manusia, meskipun air bukan zat g izi. Sekitar 60 – 70% berat tubuh kita adalah air. Fungsi air bagi tubuh adalah sebagai berikut: Sebagai pelarut reaksi kimia yang terjadi di dalam tubuh,  Sebagai pelarut zat-zat sisa yang keluar dari tubuh dalam bentuk larutan, Sebagai pengangkut hasil metabolisme ke seluruh tubuh (air merupakan bagian terbesar yang menyusun darah), Mempertahankan suhu tubuh (37 °C) (Arif Priadi, 2009: 184)."
+        android:textColor="@color/grey"
+        android:textSize="@dimen/_12sdp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_1sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:text="Air dapat diperoleh tubuh baik secara langsung maupun tidak langsung. Secara langsung air diperoleh dari air minum, sedangkan secara tidak langsung dari makanan yang kita makan. Seorang dewasa memerlukan air sekitar 2 liter per hari. Tubuh kita kehilangan air melalui  urine, keringat,  feses, dan pernapasan. Jika kehilangan air dari tubuh tidak digantikan, maka dapat menyebabkan dehidrasi atau tubuh kekurangan air. Dehidrasi dapat menyebabkan kejang  otot dan tubuh menjadi lemah (Arif Priadi, 2009: 184)."
+        android:textColor="@color/grey"
+        android:textSize="@dimen/_12sdp" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,9 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Zat.VitaminActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txt11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bluetext"
+        android:text="Zat Makanan"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18sdp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="6. Vitamin"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold" />
+
+    <com.zolad.zoominimageview.ZoomInImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_1sdp"
+        android:src="@drawable/gbrzatvitamin" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_1sdp"
+        android:text="Vitamin merupakan zat organik dalam makanan yang diperlukan oleh tubuh sebagai pelengkap. Vitamin mutlak diperlukan oleh tubuh manusia dalam jumlah yang sangat kecil. Vitamin tidak menghasilkan energi.  Vitamin berfungsi untuk pertumbuhan yang normal dan membantu metabolisme tubuh. Peranan vitamin tidak dapat digantikan oleh zat lain. Kekurangan vitamin dapat menyebabkan  penyakit deſ siensi. Berdasarkan kelarutannya, vitamin dapat dikelompokkan ke dalam dua golongan, yaitu vitamin yang larut dalam air (B dan C) dan vitamin yang larut dalam lemak (A, D, E, dan K) (Irnaningtyas, 2013: 246)"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/_12sdp" />
+    </LinearLayout>
+</ScrollView>

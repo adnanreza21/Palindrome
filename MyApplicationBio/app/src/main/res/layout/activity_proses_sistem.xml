@@ -1,9 +1,278 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ProsesSistemActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bluetext"
+            android:text="Bioproses Sistem Pencernaan"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="B. Bioproses Sistem Pencernaan"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_180sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbrbioprosestambahan" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Sistem pencernaan pada manusia tersusun atas beberapa organ dan kelenjar aksesoris yang saling terhubung. Sistem ini terdiri atas organ mulut – kerongkongan (esofagus) – lambung (ventriculus) – usus halus (intestinum) – usus besar (kolon)– rectum- anus. Kelenjar yang terdapat pada sistem pencernaan adalah kelenjar air liur, pankreas, dan empedu. Kelenjar-kelenjar tersebut menyekresikan zat-zat lain yang dibutuhkan dalam proses mencerna makanan (Arif Priadi, 2009: 165)"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Proses pencernaan makanan melalui mekanisme yang cukup panjang. Pada mulut, terjadi proses pemecahan makanan menjadi bagian yang lebih kecil dan halus secara mekanik dan kimiawi menggunakan gigi dan enzim ptialin. Selanjutnya makanan didorong ke lambung melalui kerongkongan. Pada kerongkongan, terdapat otot-otot yang mengatur gerakan mendorong makanan yang disebut gerak peristalsis. Pada lambung, pencernaan terjadi secara kimiawi oleh enzim renin, pepsin, lipase dan HCl. Kemudian, proses penyerapan sari-sari makanan terjadi di usus halus. Proses penyerapan air dan pembusukan sisa-sisa makanan terjadi di usus besar. Kemudian, sisa-sisa makanan ini dikeluarkan melalui anus (Irnaningtyas, 2013: 245)"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Proses pencernaan dibagi menjadi 2 menurut Arif Priadi ( 2009: 173)., yaitu :"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_37sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="a. Pencernaan Mekanik"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Proses pencernaan mekanik yaitu proses mengubah makanan menjadi kecil dan lembut. Pencernaan mekanik dilakukan oleh gigi dan alat bantu lain seperti batu kerikil pada burung merpati. Proses ini bertujuan untuk membantu untuk mempermudah proses pencernaan kimiawi. Proses ini dilakukan secara sadar atau sesuai dengan keinginan kita."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_37sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="b. Pencernaan Kimiawi"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Proses pencernaan kimiawi yaitu proses mengubah molekul-molekul zat makanan yang kompleks menjadi molekul-molekul yang lebih sederhana sehingga mudah dicerna. Pencernaan kimiawi dilakukan oleh enzim, asam, ‘bile’, dan air. Proses ini dilakukan secara tidak sadar karena yang mengaturnya adalah enzim "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Menurut Sherwood ( 2011: 679) proses pencernaan makanan dibagi menjadi tiga kategori utama nutrient, yaitu : "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_37sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="A. Proses Pencernaan Karbohidrat (KH)"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="a. Pencernaan dimulai di dalam mulut dipengaruhi enzim ptyalin (amylase) dari kelenjar air liur untuk mengubah amilum menjadi sakarida sederhana."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="b. Pencernaan dilambung, KH dari makanan ditampung, disimpan dan dicampur dengan asam lambung dan lendir dengan gerakan mekanik."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="c. Pencernaan di usus halus, duodenum memecahkan amilum menjadi monosakarida dengan bantuan enzim amylase."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="d. Proses absorpsi melalui difusi tefasilitasi hormone insulin pada duodenum dan jejunum."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_37sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="B. Proses pencernaan Lemak"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="a. Pencernaan dimulai di dalam mulut menghasilkan enzim lipase yang bekerja aktif di lambung dan mencerna lemak 20-30%. Enzim lipase kurang berperan penting di lambung kecuali ada gangguan pancreas."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="b. Pencernaan di usus halus terjadi di muara ductus choledocus dan mengeluarkan cairan empedu. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="c. Asam lemak, gliserol dan kolesterol dalam lumen usus halus bersatu membentuk butiran-butiran (agregat) yang dinamakan micelle."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="d. Pada proses absorbs, micelle diserap sel mukosa usus halus dengan difusi pasif. Asam lemak dan gliserol dalam sel mukosa mengalami reesterifikasi menjadi trigliserida. Kolesterol juga berubah menjadi ester kolesterol"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="e. Ester kolesterol bersatu dilapisi selaput protein dinamakan kilomikron, kilomikron keluar dari sel mukosa melalui limfatik kemudian masuk ke sirkulasi darah. (Sherwood, 2011: 599)."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_37sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="C. Proses Pencernaan Protein"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="a. Pencernaan di mulut dipengaruhi oleh enzim pepsin yang memecah protein menjadi asam amino, pepton dan polipeptida besar. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="b. Pencernaan di usus halus dipengaruhi oleh enzim tripsin, kimotripsin dan karboksipolipeptidase dari pancreas. Produk akhir berupa asam amino dan polipeptida."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:text="c. Polipeptida dicerna bersama dengan sel epitel yang mengandung beberapa enzim peptidase yang mengkonversi produk protein sisa asam amino (Sherwood, 2011: 601)."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

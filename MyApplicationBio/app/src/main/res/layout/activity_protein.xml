@@ -1,9 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Zat.ProteinActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bluetext"
+            android:text="Zat Makanan"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="2. Protein"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_180sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbrzatprotein" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Protein tersusun dari unsur-unsur karbon (C), hidrogen (H),  oksigen (O), dan  nitrogen (N). Beberapa protein tertentu selain mengandung unsurunsur tersebut juga mengandung unsur belerang (S) dan fosfor (P). Protein dibentuk oleh berbagai macam asam amino (esensial dan nonesensial). Asam amino yang dibutuhkan tubuh ada 20 macam. Asam amino esensial adalah asam amino yang tidak dapat dibentuk oleh tubuh, jadi harus didatangkan dari luar. Misalnya: leusin, lisin,  metionin,  fenilalanin, dan sebagainya. Asam amino nonesensial adalah asam amino yang dapat dibuat sendiri oleh tubuh (Irnaningtyas, 2013: 242-244)."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Menurut sumbernya, protein dibagi menjadi dua golongan, yaitu protein yang berasal dari hewan disebut  protein hewani dan dari tumbuhan Sumber: Microsoft Encarta, 2005.  Makanan sumber karbohidrat: (a) singkong, (b) padi. Makanan sumber protein: (a) kedelai (protein nabati), (b) ikan laut (protein hewani). Protein hewani merupakan protein sempurna karena mengandung asam amino esensial. Protein hewani dapat diperoleh dari daging, ikan, susu, dan telur. Sebaliknya, protein nabati merupakan protein tidak sempurna karena kandungan asam amino esensialnya kurang lengkap. Jumlahnya kurang untuk memenuhi keperluan tubuh, kecuali dari kacangkacangan, terutama kedelai (Kemendikbud, 2013: 140)."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Setelah melalui proses pencernaan, protein diserap oleh usus halus dalam bentuk  asam amino. Kebutuhan protein setiap orang berbeda-beda sesuai dengan tingkat pertumbuhan dan kondisi orang tersebut. Faktor yang memengaruhi kebutuhan protein antara lain usia, berat badan, jenis kelamin, kondisi tubuh, dan penyakit. Jika kebutuhan tersebut berlebih, maka kelebihannya akan dibuang melalui  ginjal dalam bentuk  urea. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:text="Fungsi protein: Bahan pembangun sel-sel dalam jaringan tubuh, Mengganti atau memperbaiki sel-sel dalam jaringan tubuh yang rusak, Penghasil energy, Membuat substansi penting, misalnya enzim dan hormon yang membantu metabolisme tubuh, Menjaga keseimbangan asam basa dalam tubuh (Arif Priadi, 2009 : 177)."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+    </LinearLayout>
+
+</ScrollView>

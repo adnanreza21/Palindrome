@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Zat.AsamActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txt11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bluetext"
+        android:text="Zat Makanan"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18sdp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="4. Asam Nukleat"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_1sdp"
+        android:text="Asam nukleat adalah makromolekul pertama yang berhasil diisolasi dari dalam inti sel. Asam nukleat berbentuk rantai linier yang merupakan gabungan monomer nukleotida sebagai unit pembangunnya. Molekul ini menyimpan informasi pertumbuhan sel dan reproduksi.Asam nukleat baik DNA maupun RNA tersusun dari monomer nukleotida . Nukleotida tersusun dari gugus fosfat, basa nitrogen dan gula pentosa. Basa nitrogen berasal dari kolompok purin dan pirimidin. Purin utama asam nukleat adalah adenine dan guanin, sedangkan pirimidinnya adalah  sitosin,timin dan urasi."
+        android:textColor="@color/grey"
+        android:textSize="@dimen/_12sdp" />
+    </LinearLayout>
+
+</ScrollView>

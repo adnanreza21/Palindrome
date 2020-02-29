@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Biology</string>
+    <string name="link1">
+        <a href="https://www.youtube.com/watch?v=g9LvjUavRMg">Video Saluran Sistem Pencernaan</a>
+    </string>
+    <string name="link2">
+        <a href="https://www.youtube.com/watch?v=NqNTHIuR17A">Video Zat Makanan </a>
+    </string>
+    <string name="link3">
+        <a href="https://www.youtube.com/watch?v=oOfmm_QpMtk">Video Gangguan Penyakit pada Sistem Pencernaan </a>
+    </string>
+</resources>

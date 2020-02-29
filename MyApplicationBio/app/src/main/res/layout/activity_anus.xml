@@ -1,9 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Organ.AnusActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bluetext"
+            android:text="Organ Pencernaan Manusia"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="5. Usus besar dan Anus"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_115sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbr7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Usus besar atau kolon merupakan organ pencernaan lanjutan dari usus halus. Fungsi utama dari usus besar yakni sebagai penyerapan makanan yang tidak mampu diserap oleh usus halus, menyerap air dan garam sehingga bias mengatur cairan dalam tubuh. Kanal alimentaris berakhir di usus besar yang mencakup kolon, sekum, dan rektum. Usus halus bersambung dengan usus besar pada sambungan berbentuk T, tempat sebuah sfingter mengontrol pergerakan material. Salah satu lengan T merupakan kolon sepanjang 1,5 meter yang mengarah ke rektum dan anus fungsinya untuk memulihkan air yang telah memasuki kanal alimentaris sebagai getah-getah pencernaan. Lengan lain membentuk kantong yang disebut sekum yang berfungsi untuk memfermentasi material yang teringesti. Umbai cacing, penjuluran serupa jari dari sekum manusia, memiliki peranan kecil dan tak tergantikan dalam imunitas (Campbell, 2012: 54)."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Usus besar mengandung populasi bakteri simbion yang bekerja pada substrat selulosa tumbuhan, pectin, sel-sel usus yang lepas, dan polisakarida dari lendir usus. Hasil fermentasinya berupa asam organic, gas metan, dan hydrogen. Selama digesti juga terdapat populasi bakteri yang memproduksi vitamin B dan K. Vitamin tersebut diserap oleh sel-sel permukaan usus besar. Sisa-sisa sel pencernaan dibuang melalui anus (defekasi) (Arif Priadi, 2009: 172)."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:text="Rektum merupakan bagian akhir dari usus besar. Rektum merupakan tempat penampungan sementara sisa – sisa pencernaan sebelum dikeluarkan melalui lubang pengeluaran yang disebut anus (Pujiyanto, 2014: 163). Kelenjar-kelenjar pada sistem pencernaan menurut (Syaifuddin, 2011: 163):"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,9 +1,225 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Organ.HomeOrganActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bluetext"
+            android:text="Struktur Organ Pencernaan Manusia"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="A. Struktur Organ Pencernaan Manusia"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbr1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_19sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Klik tombol dibawah ini untuk mengetahui keterangan gambar diatas!"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="@dimen/_270sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:background="@drawable/custom_button"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="left"
+            android:padding="@dimen/_6sdp"
+            android:text="1. Mulut"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="@dimen/_270sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:background="@drawable/custom_button"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="left"
+            android:padding="@dimen/_6sdp"
+            android:text="2. Kerongkongan"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="@dimen/_270sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:background="@drawable/custom_button"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="left"
+            android:padding="@dimen/_6sdp"
+            android:text="3. Lambung"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="@dimen/_270sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:background="@drawable/custom_button"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="left"
+            android:padding="@dimen/_6sdp"
+            android:text="4. Usus Halus"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="@dimen/_270sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:background="@drawable/custom_button"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="left"
+            android:padding="@dimen/_6sdp"
+            android:text="5. Usus Besar dan Anus"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Kelenjar-kelenjar pada sistem pencernaan menurut (Syaifuddin, 2011: 163):"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Kelenjar lambung "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Lambung memiliki kelenjar yang menghasilkan enzim pepsin, enzim renin dan asam khlorida (HCI). Enzim pepsin berasal dari pepsinogen yang diaktifkan oleh asam lambung. Sekresi atau pengeluaran asam lambung dipengaruhi oleh refleks jika ada makanan yang masuk ke dalam lambung, serta dipengaruhi oleh hormon gastrin yang dikeluarkan oleh dinding lambung. Produksi asam lambung yang berlebih dapat membuat radang pada dinding lambung. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Kantong Empedu"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Kantong empedu menempel di hati, sebagai tempat menampung cairan empedu. Empedu dihasilkan dari perombakan sel darah merah yang tua atau rusak oleh hati. Cairan empedu dialirkan ke dalam duodenum. Pengeluaran cairan empedu dipengaruhi oleh hormon kolesistokinin. Hormon ini dihasilkan oleh duodenum. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Kelenjar Pankreas"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Kelenjar pankreas terletak di rongga perut di dekat lambung. Pankreas menghasilkan enzim pencernaan yang dialirkan menuju duodenum, yakni enzim amilase, enzim tripsinogen, enzim lipase dan NaHCO3. Sekresi enzim dari pankreas dipengaruhi oleh hormon sekretin. Hormon sekretin dihasilkan oleh duodenum pada saat makanan masuk duodenum “usus dua belas jari”."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Kelenjar Di Usus Halus"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:text="Kelenjar pada usus halus menghasilkan enzim enterokinase, enzim erepsin “peptidase”, enzim maltase, enzim sukrase, enzim laktase dan enzim nuklease serta lipase. Pengeluaran enzim-enzim ini dipengaruhi oleh hormon enterokrinin yang dihasilkan oleh duodenum. Hormon enterokrinin yang dihasilkan oleh duodenum mempengaruhi keluarnya enzim-enzim tersebut, sehingga mempermudah penyerapan sari-sari makanan. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+    </LinearLayout>
+
+</ScrollView>
