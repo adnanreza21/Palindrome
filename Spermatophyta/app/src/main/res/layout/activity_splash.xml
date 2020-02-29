@@ -7,27 +7,26 @@
     android:background="@color/colorPrimaryDark"
     tools:context=".SplashActivity">
 
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_140sdp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:src="@drawable/rose"></ImageView>
+
     <TextView
         android:id="@+id/text1"
+        android:layout_below="@id/image1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/_75sdp"
-        android:text="SPERMATOPHYTA"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:text="Media Pembelajaran Biologi"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="@dimen/_25sdp"
+        android:textSize="@dimen/_22sdp"
         android:textStyle="bold"></TextView>
-
-    <ImageView
-        android:id="@+id/image1"
-        android:layout_width="@dimen/_120sdp"
-        android:layout_height="@dimen/_120sdp"
-        android:layout_below="@id/text1"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/_85sdp"
-        android:src="@drawable/rose"></ImageView>
-
 
 </RelativeLayout>

@@ -5,10 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".silabus.ProfileDsnActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/_10sdp"
-        android:background="@color/colorPrimaryDark"
+        android:background="@color/colorPrimary"
         android:orientation="vertical">
 
         <TextView
@@ -16,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_marginBottom="@dimen/_10sdp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:text="Profil Dosen"
             android:textAlignment="center"
             android:textColor="@color/white"
@@ -46,7 +47,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="vertical">
 
             <TextView
@@ -101,6 +102,7 @@
                 android:text="Pendidikan Biologi"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_15sdp" />
+
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -110,6 +112,7 @@
                 android:text="Teknologi Pendidikan Biologi"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_15sdp" />
+
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -119,6 +122,7 @@
                 android:text="Pengembangan Kurikulum"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_15sdp" />
+
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -128,6 +132,7 @@
                 android:text="Pendidikan Anak Usia Dini"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_15sdp" />
+
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -137,6 +142,7 @@
                 android:text="Highschool Biology Review"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_15sdp" />
+
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -146,6 +152,7 @@
                 android:text="Filsafat Ilmu (S1)"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_15sdp" />
+
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -155,6 +162,7 @@
                 android:text="Filsafat Ilmu (S2)"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_15sdp" />
+
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -164,6 +172,7 @@
                 android:text="Kapita Selekta Pendidikan Biologi (S2)"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_15sdp" />
+
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -173,6 +182,7 @@
                 android:text="Difusi Inovasi Pendidikan (S2)"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_15sdp" />
+
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -182,6 +192,7 @@
                 android:text="Isu dan Trend Penelitian Pendidikan Biologi (S3)"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_15sdp" />
+
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
