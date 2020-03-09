@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".silabus.ProfileDsnActivity"></activity>
+        <activity android:name=".materi.MateriGlosariActivity"></activity>
+        <activity android:name=".silabus.ProfileDsnActivity" />
         <activity android:name=".silabus.ProfileMhsActivity" />
         <activity android:name=".contoh.ContohActivity" />
         <activity android:name=".contoh.AngiosMusaActivity" />
