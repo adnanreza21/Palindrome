@@ -12,7 +12,7 @@ import com.amazing.spermatophyta.R;
 
 public class MenuMateriActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private CardView limamCard,spermatoCard,gymnosCard,angiosCard;
+    private CardView limamCard,spermatoCard,gymnosCard,angiosCard,glosariCard;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,11 +21,13 @@ public class MenuMateriActivity extends AppCompatActivity implements View.OnClic
         spermatoCard = (CardView) findViewById(R.id.card2);
         gymnosCard = (CardView) findViewById(R.id.card3);
         angiosCard = (CardView) findViewById(R.id.card4);
+        glosariCard = (CardView) findViewById(R.id.card5);
 
         limamCard.setOnClickListener(this);
         spermatoCard.setOnClickListener(this);
         gymnosCard.setOnClickListener(this);
         angiosCard.setOnClickListener(this);
+        glosariCard.setOnClickListener(this);
 
     }
 
@@ -38,6 +40,7 @@ public class MenuMateriActivity extends AppCompatActivity implements View.OnClic
             case R.id.card2 : i = new Intent(this, MateriGymnoActivity.class);startActivity(i);break;
             case R.id.card3 : i = new Intent(this, MateriAngiosActivity.class);startActivity(i);break;
             case R.id.card4 : i = new Intent(this, MateriBungaActivity.class);startActivity(i);break;
+            case R.id.card5 : i = new Intent(this, MateriGlosariActivity.class);startActivity(i);break;
 
             default:break;
         }
