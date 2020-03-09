@@ -424,7 +424,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="@dimen/_10sdp"
-                            android:text="Musa Sp."
+                            android:text="Musa Paradisiaca"
                             android:textSize="@dimen/_10sdp"
                             android:textStyle="bold" />
 

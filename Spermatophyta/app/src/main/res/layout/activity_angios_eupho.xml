@@ -146,7 +146,7 @@
             android:layout_marginLeft="@dimen/_20sdp"
             android:layout_marginTop="@dimen/_2sdp"
             android:layout_marginRight="@dimen/_1sdp"
-            android:text="Divisi : Magnoliophyta"
+            android:text="Divisi : Spermatophyta"
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
 
@@ -166,7 +166,7 @@
             android:layout_marginLeft="@dimen/_20sdp"
             android:layout_marginTop="@dimen/_2sdp"
             android:layout_marginRight="@dimen/_1sdp"
-            android:text="Kelas : Magnoliopsida "
+            android:text="Kelas : Dicotyledone "
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
 

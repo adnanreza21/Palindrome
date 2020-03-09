@@ -392,6 +392,6 @@
             android:text="Tumbuhan berumah dua: jika bunga jantan dan betina terpisah pada dua individu, sehingga satu individu hanya terdapat satu jenis kelamin"
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
-        
+
     </LinearLayout>
 </ScrollView>

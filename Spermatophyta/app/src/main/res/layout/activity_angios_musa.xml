@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
-            android:text="Musa sp."
+            android:text="Musa Paradisiaca"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="@dimen/_20sdp"
@@ -165,7 +165,7 @@
             android:layout_marginLeft="@dimen/_20sdp"
             android:layout_marginTop="@dimen/_2sdp"
             android:layout_marginRight="@dimen/_1sdp"
-            android:text="Divisi : Magnoliophyta"
+            android:text="Divisi : Spermatophyta"
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
 
@@ -185,7 +185,7 @@
             android:layout_marginLeft="@dimen/_20sdp"
             android:layout_marginTop="@dimen/_2sdp"
             android:layout_marginRight="@dimen/_1sdp"
-            android:text="Kelas : Liliopsida "
+            android:text="Kelas : Monocotyledone"
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
 
