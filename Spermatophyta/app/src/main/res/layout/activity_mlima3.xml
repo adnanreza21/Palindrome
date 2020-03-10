@@ -48,7 +48,7 @@
             android:layout_marginLeft="@dimen/_20sdp"
             android:layout_marginTop="@dimen/_5sdp"
             android:layout_marginRight="@dimen/_1sdp"
-            android:text="Siswa menjawab pertanyaan pada LKPD yang sudah disiapkan tentang materi Spermatophyta menggunakan bantuan media berbasis android"
+            android:text="Siswa menjawab pertanyaan pada LKPD yang sudah disediakan tentang materi Spermatophyta berupa (ciri-ciri morfologi, klasifikasi, peran, dan siklus hidup) menggunakan bantuan media berbasis android."
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
 

@@ -49,7 +49,7 @@
             android:layout_marginLeft="@dimen/_20sdp"
             android:layout_marginTop="@dimen/_2sdp"
             android:layout_marginRight="@dimen/_1sdp"
-            android:text="1) apa itu Spermatophyta? "
+            android:text="Dari kegiatan yang sudah dilakukan, bagaimana cara mengelompokkan tumbuhan tersebut?"
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
 
@@ -59,19 +59,10 @@
             android:layout_marginLeft="@dimen/_20sdp"
             android:layout_marginTop="@dimen/_2sdp"
             android:layout_marginRight="@dimen/_1sdp"
-            android:text="2) apa saja pembagian kelompok tumbuhan Spermatophyta dan bagaimana ciri-ciri? "
+            android:text="Apa ciri khas dari kelompok Spermatophyta? "
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/_20sdp"
-            android:layout_marginTop="@dimen/_5sdp"
-            android:layout_marginRight="@dimen/_1sdp"
-            android:text="3) apa peran dari kelompok Gymnospermae dan Angiospermae dalam kehidupan?"
-            android:textColor="@color/grey"
-            android:textSize="@dimen/_12sdp" />
 
         <Button
             android:id="@+id/but1"

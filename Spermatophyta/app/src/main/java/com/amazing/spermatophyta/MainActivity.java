@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.amazing.spermatophyta.materi.MateriPlantaeActivity;
 import com.amazing.spermatophyta.materi.MlimaActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
@@ -35,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent i ;
 
         switch (v.getId()){
-            case R.id.card2 : i = new Intent(this, MlimaActivity.class);startActivity(i);break;
+            case R.id.card2 : i = new Intent(this, MateriPlantaeActivity.class);startActivity(i);break;
             case R.id.card1 : i = new Intent(this,SilabusActivity.class);startActivity(i);break;
             case R.id.card3 : i = new Intent(this,QuizActivity.class);startActivity(i);break;
             case R.id.card4 : i = new Intent(this,VideoActivity.class);startActivity(i);break;

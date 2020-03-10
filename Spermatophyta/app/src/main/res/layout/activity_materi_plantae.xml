@@ -91,132 +91,20 @@
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
 
-        <TextView
-            android:layout_width="wrap_content"
+        <Button
+            android:id="@+id/but1"
+            android:layout_width="@dimen/_120sdp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/_5sdp"
-            android:layout_marginTop="@dimen/_5sdp"
-            android:text="2) Pteridophyta (Tumbuhan Paku)"
-            android:textColor="@color/grey"
-            android:textSize="@dimen/_12sdp"
-            android:textStyle="bold" />
-
-        <com.zolad.zoominimageview.ZoomInImageView
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/_210sdp"
             android:layout_gravity="center"
-            android:layout_marginLeft="@dimen/_10sdp"
-            android:layout_marginTop="@dimen/_5sdp"
-            android:layout_marginRight="@dimen/_1sdp"
-            android:src="@drawable/gbropenpaku" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/_20sdp"
-            android:layout_marginTop="@dimen/_5sdp"
-            android:layout_marginRight="@dimen/_1sdp"
-            android:text="a. Memiliki kormus (akar, batang, dan daun yang sejati)"
-            android:textColor="@color/grey"
-            android:textSize="@dimen/_12sdp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/_20sdp"
-            android:layout_marginTop="@dimen/_5sdp"
-            android:layout_marginRight="@dimen/_1sdp"
-            android:text="b. Memiliki berkas pengangkut (xylem dan floem)"
-            android:textColor="@color/grey"
-            android:textSize="@dimen/_12sdp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/_20sdp"
-            android:layout_marginTop="@dimen/_5sdp"
-            android:layout_marginRight="@dimen/_1sdp"
-            android:text="c. Mengalami pergantian keturunan dengan generasi sporofit lebih dominan daripada generasi gametofit"
-            android:textColor="@color/grey"
-            android:textSize="@dimen/_12sdp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/_20sdp"
-            android:layout_marginTop="@dimen/_5sdp"
-            android:layout_marginRight="@dimen/_1sdp"
-            android:text="d. Akar berupa serabut dan ukuran daun bervariasi"
-            android:textColor="@color/grey"
-            android:textSize="@dimen/_12sdp" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/_5sdp"
-            android:layout_marginTop="@dimen/_5sdp"
-            android:text="3) Spermatophyta"
-            android:textColor="@color/grey"
-            android:textSize="@dimen/_12sdp"
-            android:textStyle="bold" />
-
-        <com.zolad.zoominimageview.ZoomInImageView
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/_210sdp"
-            android:layout_gravity="center"
-            android:layout_marginLeft="@dimen/_10sdp"
-            android:layout_marginTop="@dimen/_5sdp"
-            android:layout_marginRight="@dimen/_1sdp"
-            android:src="@drawable/gbropensperma" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/_20sdp"
-            android:layout_marginTop="@dimen/_5sdp"
-            android:layout_marginRight="@dimen/_1sdp"
-            android:text="a. Merupakan tumbuhan biji dimana merupakan jenis tumbuhan yang paling sempurna"
-            android:textColor="@color/grey"
-            android:textSize="@dimen/_12sdp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/_20sdp"
-            android:layout_marginTop="@dimen/_5sdp"
-            android:layout_marginRight="@dimen/_1sdp"
-            android:text="b. Tubuh dapat dibedakan secara jelas menjadi akar, batang, dan daun (Cormophyta)"
-            android:textColor="@color/grey"
-            android:textSize="@dimen/_12sdp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/_20sdp"
-            android:layout_marginTop="@dimen/_5sdp"
-            android:layout_marginRight="@dimen/_1sdp"
-            android:text="c. Memiliki alat perkembangbiakan generatif berupa biji yang dihasilkan dari organ bunga (Anthophyta atau tumbuhan berbunga)"
-            android:textColor="@color/grey"
-            android:textSize="@dimen/_12sdp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/_20sdp"
-            android:layout_marginTop="@dimen/_5sdp"
-            android:layout_marginRight="@dimen/_1sdp"
-            android:text="d. Perawakan berupa semak, perdu, pohon, dan herba"
-            android:textColor="@color/grey"
-            android:textSize="@dimen/_12sdp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/_20sdp"
-            android:layout_marginTop="@dimen/_5sdp"
-            android:layout_marginRight="@dimen/_1sdp"
-            android:text="e. Memiliki jaringan pembuluh yang bervariasi"
-            android:textColor="@color/grey"
-            android:textSize="@dimen/_12sdp" />
-
-
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:background="@drawable/button_green"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="@dimen/_6sdp"
+            android:text="Lanjut"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20sdp" />
     </LinearLayout>
 </ScrollView>

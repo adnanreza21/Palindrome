@@ -34,12 +34,48 @@
 
         <com.zolad.zoominimageview.ZoomInImageView
             android:layout_width="wrap_content"
-            android:layout_height="@dimen/_140sdp"
+            android:layout_height="@dimen/_200sdp"
             android:layout_gravity="center"
             android:layout_marginLeft="@dimen/_20sdp"
             android:layout_marginTop="@dimen/_5sdp"
             android:layout_marginRight="@dimen/_1sdp"
-            android:src="@drawable/gbr5m" />
+            android:src="@drawable/pinus_strobilusjantan" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_250sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/melinjo_biji" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/kamboja_bunga" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/pisang_bunga" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/euphor_bunga" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -47,7 +83,27 @@
             android:layout_marginLeft="@dimen/_20sdp"
             android:layout_marginTop="@dimen/_5sdp"
             android:layout_marginRight="@dimen/_1sdp"
-            android:text="Berdasarkan gambar tersebut, tentukan tumbuhan apa yang ada di lingkungan sekolah dengan ciri-ciri dalam dalam gambar? Tuliskan klasifikasi dan ciri-cirinya."
+            android:text="Berdasarkan gambar tersebut, tumbuhan apa yang ada di sekolah? "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Apakah ada keterkaitan atau perbedaan antara gambar tersebut? "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Amati dan cocokkan dengan tumbuhan yang ada di sekolah!"
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
 
@@ -61,8 +117,8 @@
             android:background="@drawable/button_green"
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
-            android:text="Lanjut"
             android:padding="@dimen/_6sdp"
+            android:text="Lanjut"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="@dimen/_20sdp" />
