@@ -39,7 +39,7 @@
             android:layout_marginLeft="@dimen/_25sdp"
             android:layout_marginTop="@dimen/_5sdp"
             android:layout_marginRight="@dimen/_1sdp"
-            android:text="Melalui kegiatan pembelajaran dengan pendekatan saintifik peserta didik dapat mengelompokkan tumbuhan ke dalam sub-divisi Spermatophyta berdasarkan ciri-ciri umum, serta mengaitkan peranannya dalam kehidupan sehingga peserta didik dapat menumbuhkan perilaku disiplin, jujur, aktif, responsif, santun, bertanggungjawab, dan kerjasama untuk dapat menumbuhkan kesadaran akan kebesaran Tuhan YME dan mensyukuri karuniaNya."
+            android:text="Melalui kegiatan pembelajaran dengan pendekatan saintifik peserta didik dapat mengelompokkan tumbuhan ke dalam divisi Bryophyta, Pteridophyta, dan Spermatophyta serta mengelompokkan ke dalam sub-divisi Spermatophyta berdasarkan ciri-ciri umum, serta mengaitkan peranannya dalam kehidupan sehingga peserta didik dapat menumbuhkan perilaku disiplin, jujur, aktif, responsif, santun, bertanggungjawab, dan kerjasama untuk dapat menumbuhkan kesadaran akan kebesaran Tuhan YME dan mensyukuri karuniaNya."
             android:textColor="@color/white"
             android:textSize="@dimen/_12sdp" />
     </LinearLayout>
