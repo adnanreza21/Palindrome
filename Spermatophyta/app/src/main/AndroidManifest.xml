@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".materi.MateriPlantaeActivity"></activity>
+        <activity android:name=".materi.MateriPlantaeSpermaActivity"></activity>
+        <activity android:name=".materi.MateriPlantaePakuActivity" />
+        <activity android:name=".materi.MateriPlantaeActivity" />
         <activity android:name=".materi.MateriOpenActivity" />
         <activity android:name=".materi.MateriGlosariActivity" />
         <activity android:name=".silabus.ProfileDsnActivity" />
