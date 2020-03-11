@@ -3,4 +3,15 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="redaccent">#D81B60</color>
+    <color name="kuning">#c6fd00</color>
+    <color name="unggu">#b500fd</color>
+    <color name="ijo1">#00fd37</color>
+    <color name="ijo2">#48fd00</color>
+    <color name="birumuda">#00fdb5</color>
+    <color name="white">#fff</color>
+    <color name="lightgray">#ededed</color>
+    <color name="darkgrey">#A09E9E</color>
+    <color name="grey">#333834</color>
+    <color name="background">#fcfcfc</color>
 </resources>
