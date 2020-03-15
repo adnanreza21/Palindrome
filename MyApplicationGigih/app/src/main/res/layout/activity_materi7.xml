@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".materi.Materi7Activity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
-            android:text="Sistem Bahan Bakar Konvensional"
+            android:text="Prinsip Kerja Karburator"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="@dimen/_20sdp"
@@ -26,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/_5sdp"
             android:layout_marginTop="@dimen/_5sdp"
-            android:text="1. Sistem Bahan Bakar Konvensional"
+            android:text="7. Prinsip Kerja Karburator"
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp"
             android:textStyle="bold" />
@@ -37,9 +38,67 @@
             android:layout_marginLeft="@dimen/_20sdp"
             android:layout_marginTop="@dimen/_5sdp"
             android:layout_marginRight="@dimen/_1sdp"
-            android:text="Sistem bahan bakar berfungsi untuk mencampur udara dan bahan bakar dan mengirim campuran tersebut dalam bentuk kabut ke ruang bakar. Dilihat dari cara pemasukan campuran udara dan bahan bakar tersebut ada dua macam. Cara pertama, masuknya campuran udara dan bahan bakar dengan cara dihisap, sedang cara kedua masuknya campuran udara dan bahan bakar dengan cara diinjeksikan. Cara pertama biasa disebut sistem bahan bakar konvensional, sedang cara kedua disebut sistem injeksi bahan bakar. Sistem injeksi bahan bakar dapat dibagi menjadi sistem bahan bakar konvensional dan sistem injeksi bahan bakar secara elektronik dan biasa disebut EFI (Electronic Fuel Injection)."
+            android:text="Prinsip dasar karburator sama dengan prinsip pengecatan dengan penyemprotan."
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbrmateri7_01" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Pada saat udara ditiup melalui bagian ujung pipa penyemprot, tekanan di dalam pipa akan turun (rendah). Akibatnya cairan yang ada di dalam tabung akan terhisap keluar dan membentuk partikel-partikel kecil saat terdorong oleh udara. Semakin cepat aliran udara, maka semakin rendah tekanan udara pada ujung pipa sehingga semakin banyak cairan bahan bakar yang keluar dari pipa. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Prinsip kerja karburator berdasarkan hukum-hukum fisika seperti : Qontinuitas dan Bernauli. Apabila suatu fluida mengalir melalui suatu tabung, maka banyaknya fluida atau debit aliran (Q) adalah :"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_130sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbrmateri7_02" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbrmateri7_03" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Konstruksi dasar karburator dapat dilihat pada gambar diatas.   Bagian karburator yang diameternya menyempit (bagian A) disebut venturi. Pada bagian ini kecepatan aliran udara yang masuk semakin tinggi sehingga kevakumannya semakin rendah. Dengan demikian pada bagian venturi bahan bakar yang dapat terhisap semakin banyak."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
     </LinearLayout>
 
 </ScrollView>
