@@ -62,6 +62,25 @@
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
 
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbrmateri6_01" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Karburator dengan venturi tetap (fixed venturi) dewasa ini masih banyak digunakan karena konstruksinya sederhana. Sifat utama karburator tersebut menggunakan sebuah venturi tetap dengan diameter tertentu. Besarnya vakum yang dihasilkan oleh udara yang mengalir melalui venturi tersebut sesuai dengan kecepatan aliran. Kecepatan aliran dipengaruhi oleh beban mesin dan pembukaan katup gas. Keadaan tersebut akan mempengaruhi banyak sedikitnya bahan bakar yang keluar dari venturi. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -69,6 +88,44 @@
             android:layout_marginTop="@dimen/_5sdp"
             android:layout_marginRight="@dimen/_1sdp"
             android:text="b. Karburator variable vanturi"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbrmateri6_02" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Karburator variable venturi menggunakan sistem dimana  permukaan venturi dikontrol sesuai dengan banyaknya udara yang dihisap. Salah satu keistimewaan karburator tersebut adalah perubahan membukanya venturi sama saat kecepatan rendah dan sedang, serta pada beban ringan dan sedang. Dengan alasan tersebut volume bahan bakar berubah sesuai dengan volume udara yang masuk dan tahanan udara yang masuk menjadi kecil. Dengan demikian dapat memudahkan untuk mencapai output yang tinggi. Tingkat aliran udara yang dihisap melalui karburator variable venturi seperti diperlihatkan pada grafik di bawah ini."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbrmateri6_03" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Dibanding dengan karburator fixed venturi, maka karburator variable venturi mempunyai tingkat aliran udara yang tetap  (adanya tahanan pada aliran udara) yang memotong daerah full pada rpm mesin, sehingga diperoleh suatu campuran yang baik antara udara dan bahan bakar."
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
 
@@ -82,13 +139,22 @@
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
 
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbrmateri6_04" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_50sdp"
             android:layout_marginTop="@dimen/_5sdp"
             android:layout_marginRight="@dimen/_1sdp"
-
+            android:text="Pada karburator air valve venturi, membukanya air valve dikontrol dengan besarnya udara yang dihisap. Konstruksinya berbeda dengan karburator variable venturi, tetapi cara kerjanya sama. Karburator jenis air valve  mempunyai dasar karburator arus turun dua barrel (down draft double barrel), tetapi konstruksi dan cara kerjanya sama dengan sistem secondary yang dimodifiksai. Katup udara terpasang di dalam silinder secondary dan membukanya air valve bervariasi sesuai dengan jumlah udara yang dihisap. Kevakuman pada nosel utama dikontrol agar bekerjanya konstan. Karburator jenis ini tidak mempunyai tahanan aliran udara pada venturi sehingga keuntungannya mampu menghasilkan output yang besar. Disamping itu, membuka dan menutupnya katup throttle secara mekanik maka diafragma tidak diperlukan lagi."
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
 
@@ -98,7 +164,7 @@
             android:layout_marginLeft="@dimen/_20sdp"
             android:layout_marginTop="@dimen/_5sdp"
             android:layout_marginRight="@dimen/_1sdp"
-
+            android:text="3) Dilihat dari arah masuk campuran udara dan bahan bakar :"
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
 
