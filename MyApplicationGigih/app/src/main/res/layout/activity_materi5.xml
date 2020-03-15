@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".materi.Materi5Activity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
-            android:text="Sistem Bahan Bakar Konvensional"
+            android:text="Pompa Bahan Bakar"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="@dimen/_20sdp"
@@ -26,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/_5sdp"
             android:layout_marginTop="@dimen/_5sdp"
-            android:text="1. Sistem Bahan Bakar Konvensional"
+            android:text="5. Pompa Bahan Bakar"
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp"
             android:textStyle="bold" />
@@ -37,7 +38,106 @@
             android:layout_marginLeft="@dimen/_20sdp"
             android:layout_marginTop="@dimen/_5sdp"
             android:layout_marginRight="@dimen/_1sdp"
-            android:text="Sistem bahan bakar berfungsi untuk mencampur udara dan bahan bakar dan mengirim campuran tersebut dalam bentuk kabut ke ruang bakar. Dilihat dari cara pemasukan campuran udara dan bahan bakar tersebut ada dua macam. Cara pertama, masuknya campuran udara dan bahan bakar dengan cara dihisap, sedang cara kedua masuknya campuran udara dan bahan bakar dengan cara diinjeksikan. Cara pertama biasa disebut sistem bahan bakar konvensional, sedang cara kedua disebut sistem injeksi bahan bakar. Sistem injeksi bahan bakar dapat dibagi menjadi sistem bahan bakar konvensional dan sistem injeksi bahan bakar secara elektronik dan biasa disebut EFI (Electronic Fuel Injection)."
+            android:text="Pompa bahan bakar yang biasa digunakan pada motor bensin adalah pompa bahan bakar mekanik dan pompa bahan bakar listrik.  "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbr3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Pompa bahan bakar mekanik digerakkan oleh mesin itu sendiri, sedang pompa bahan bakar listrik digerakkan dengan arus listrik. Ada dua jenis pompa bahan bakar mekanik yaitu pompa bahan bakar yang dilengkapi dengan saluran pengembali dan pompa bahan bakar tanpa saluran pengembali. Namun demikian konstruksi dan cara kerjanya sama. Pada mesin-mesin terdahulu umumnya saluran pengembali ada di karburator, sedang mesin-mesin sekarang saluran pengembalinya ada di pompa bahan bakar."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Adapun cara kerja pompa bahan bakar mekanik dapat dijelaskan sebagai berikut :"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="1. Apabila rocker arm ditekan oleh nok, diafragma tertarik ke bawah sehingga ruang di atas difragma menjadi hampa. Katup masuk terbuka dan bahan bakar akan mengalir ke ruang diafragma. Pada saat ini katup keluar tertutup."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="2. Pada saat nok tidak menyentuh rocker arm, diafragma bergerak ke atas sehingga bahan bakar yang ada di ruang difragma terdorong ke luar melalui katup keluar dan terus ke karburator. Tekanan penyaluran sekitar 0,2 s.d. 0,3 kg/cm2"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="3. Apabila bahan bakar pada karburator sudah cukup maka diafragma tidak terdorong ke atas oleh pegas dan pull rod pada posisi paling bawah, karena tekanan pegas sama  dengan tekanan bahan bakar. Pada saat ini rocker arm tidak bekerja meskipun poros nok berputar sehingga diafragma diam dan pompa tidak bekerja."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Berbeda dengan pompa bahan bakar mekanik, pompa bahan bakar listrik dapat ditempatkan di mana saja dengan tujuan untuk menghindari panas dari mesin. Pompa bahan listrik langsung bekerja setelah kunci kontak di ON-kan. Jenis pompa bahan bakar listrik bermacam-macam antara lain : model diafragma, model plunger, model sentrifugal dan sebagainya. Dibawah ini akan dibahas pompa bahan bakar model diafragma."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Keterangan :"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Apabila kunci kontak diputar pada posisi ON, akan terjadi kemagnetan pada solenoid yang menyebabkan diafragma tertarik ke atas sehingga bahan bakar masuk melalui katup masuk. Pada saat yang sama platina membuka karena tuas platina dihubungkan dengan rod sehingga kemagnetan pada solenoid hilang. Akibatnya diafragma bergerak ke bawah mendorong bahan bakar keluar memalui katup buang."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
     </LinearLayout>
