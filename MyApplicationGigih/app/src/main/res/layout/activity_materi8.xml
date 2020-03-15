@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".materi.Materi8Activity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
-            android:text="Sistem Bahan Bakar Konvensional"
+            android:text="Cara Kerja Karburator"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="@dimen/_20sdp"
@@ -26,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/_5sdp"
             android:layout_marginTop="@dimen/_5sdp"
-            android:text="1. Sistem Bahan Bakar Konvensional"
+            android:text="8. Cara Kerja Karburator"
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp"
             android:textStyle="bold" />
@@ -37,7 +38,167 @@
             android:layout_marginLeft="@dimen/_20sdp"
             android:layout_marginTop="@dimen/_5sdp"
             android:layout_marginRight="@dimen/_1sdp"
-            android:text="Sistem bahan bakar berfungsi untuk mencampur udara dan bahan bakar dan mengirim campuran tersebut dalam bentuk kabut ke ruang bakar. Dilihat dari cara pemasukan campuran udara dan bahan bakar tersebut ada dua macam. Cara pertama, masuknya campuran udara dan bahan bakar dengan cara dihisap, sedang cara kedua masuknya campuran udara dan bahan bakar dengan cara diinjeksikan. Cara pertama biasa disebut sistem bahan bakar konvensional, sedang cara kedua disebut sistem injeksi bahan bakar. Sistem injeksi bahan bakar dapat dibagi menjadi sistem bahan bakar konvensional dan sistem injeksi bahan bakar secara elektronik dan biasa disebut EFI (Electronic Fuel Injection)."
+            android:text="Untuk memenuhi kebutuhan kerjanya, pada karburator terdapat beberapa sistem yaitu : "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="1. Sistem Pelampung "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="2. Sistem Stasioner dan Kecepatan Lambat "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="3. Sistem Kecepatan Tinggi Primer "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="4. Sistem Kecepatan Tinggi Sekunder "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="5. Sistem Tenaga (Power System) "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="6. Sistem Percepatan "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="7. Sistem Cuk "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="8. Mekanisme idel cepat "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="9. Hot Idle Compensator "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="10. Anti Dieseling "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="11. Daspot "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="12. Deceleration Fuel Cut Off System "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Untuk mempermudah dalam analisa kerusakan atau gangguan yang disebabkan karburator, maka perlu diuraikan atau dijelaskan masing-masing sistem yang ada pada karburator. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
     </LinearLayout>
