@@ -1,9 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".materi.Materi2Activity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="Tangki dan Saluran Bahan Bakar"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="1. Tangki Bahan Bakar"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Pada umumnya tangki bahan bakar terbuat dari lembaran baja yang tipis. Penempatan tangki bahan bakar biasanya diletakkan di bagian belakang kendaraan untuk mencegah bocoran apabila terjadi benturan. Namun ada beberapa kendaraan yang letak tangki bahan bakarnya di 9 tengah. Bagian dalam tangki dilapisi bahan pencegah karat. Disamping itu tangki juga dilengkapi dengan penyekat (separator) untuk mencegah perubahan permukaan bahan bakar pada saat kendaraan melaju di jalan yang tidak rata. Lubang saluran masuk bahan bakar ke saluran utama terletak 2-3 cm dari dasar tangki untuk mencegah endapan dan air dalam bensin ikut terhisap ke dalam saluran."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbr1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="2. Saluran Bahan Bakar"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Pada sistem bahan bakar terdapat tiga saluran bahan bakar yaitu : saluran utama yang menyalurkan bahan bakar dari tangki ke pompa bahan bakar, saluran pengembali yang menyalurkan bahan bakar kembali dari karburator ke tangki, dan saluran uap bahan bakar yang menyalurkan gas HC (uap bensin) dari dalam tangki bahan bakar ke charcoal canister. Untuk mencegah kerusakan saluran bahan bakar yang disebabkan oleh benturan, biasanya saluran bahan bakar dilengkapi dengan pelindung. Saluran bahan bakar yang menghubungkan karburator dengan pompa bahan bakar menggunakan selang karet karena adanya getaran mesin."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+    </LinearLayout>
+</ScrollView>

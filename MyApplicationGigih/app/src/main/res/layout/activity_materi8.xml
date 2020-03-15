@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".materi.Materi8Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/txt11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="Sistem Bahan Bakar Konvensional"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="1. Sistem Bahan Bakar Konvensional"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Sistem bahan bakar berfungsi untuk mencampur udara dan bahan bakar dan mengirim campuran tersebut dalam bentuk kabut ke ruang bakar. Dilihat dari cara pemasukan campuran udara dan bahan bakar tersebut ada dua macam. Cara pertama, masuknya campuran udara dan bahan bakar dengan cara dihisap, sedang cara kedua masuknya campuran udara dan bahan bakar dengan cara diinjeksikan. Cara pertama biasa disebut sistem bahan bakar konvensional, sedang cara kedua disebut sistem injeksi bahan bakar. Sistem injeksi bahan bakar dapat dibagi menjadi sistem bahan bakar konvensional dan sistem injeksi bahan bakar secara elektronik dan biasa disebut EFI (Electronic Fuel Injection)."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+    </LinearLayout>
+</ScrollView>
