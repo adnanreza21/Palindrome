@@ -91,7 +91,7 @@
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
 
-        <com.zolad.zoominimageview.ZoomInImageView
+        <ImageView
             android:id="@+id/gifsatu"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/_200sdp"
@@ -109,7 +109,8 @@
             android:text="3. Apabila bahan bakar pada karburator sudah cukup maka diafragma tidak terdorong ke atas oleh pegas dan pull rod pada posisi paling bawah, karena tekanan pegas sama  dengan tekanan bahan bakar. Pada saat ini rocker arm tidak bekerja meskipun poros nok berputar sehingga diafragma diam dan pompa tidak bekerja."
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
-        <com.zolad.zoominimageview.ZoomInImageView
+
+        <ImageView
             android:id="@+id/gifdua"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/_200sdp"
@@ -117,6 +118,7 @@
             android:layout_marginLeft="@dimen/_20sdp"
             android:layout_marginTop="@dimen/_5sdp"
             android:layout_marginRight="@dimen/_1sdp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -126,7 +128,8 @@
             android:text="Berbeda dengan pompa bahan bakar mekanik, pompa bahan bakar listrik dapat ditempatkan di mana saja dengan tujuan untuk menghindari panas dari mesin. Pompa bahan listrik langsung bekerja setelah kunci kontak di ON-kan. Jenis pompa bahan bakar listrik bermacam-macam antara lain : model diafragma, model plunger, model sentrifugal dan sebagainya. Dibawah ini akan dibahas pompa bahan bakar model diafragma."
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
-        <com.zolad.zoominimageview.ZoomInImageView
+
+        <ImageView
             android:id="@+id/giftiga"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/_200sdp"
@@ -134,6 +137,7 @@
             android:layout_marginLeft="@dimen/_20sdp"
             android:layout_marginTop="@dimen/_5sdp"
             android:layout_marginRight="@dimen/_1sdp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

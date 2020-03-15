@@ -164,7 +164,65 @@
             android:layout_marginLeft="@dimen/_20sdp"
             android:layout_marginTop="@dimen/_5sdp"
             android:layout_marginRight="@dimen/_1sdp"
-            android:text="3) Dilihat dari arah masuk campuran udara dan bahan bakar :"
+            android:text="2) Dilihat dari arah masuk campuran udara dan bahan bakar :"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="a. Karburator arus turun"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbrmateri6_05" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Pada karburator arus turun, arah masuknya campuran udara dan bahan bakar adalah ke bawah (down draft). Karburator jenis ini banyak digunakan karena tidak ada kerugian gravitasi."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="b. Karburator arus datar"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="@dimen/_220sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbrmateri6_06" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Pada karburator arus datar, arah masuknya campuran udara dan bahan bakar adalah ke samping (side draft). Karburator tersebut pada umumnya digunakan pada mesin yang memiliki output yang tinggi."
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
 
@@ -174,38 +232,67 @@
             android:layout_marginLeft="@dimen/_20sdp"
             android:layout_marginTop="@dimen/_5sdp"
             android:layout_marginRight="@dimen/_1sdp"
-
+            android:text="3) Dilihat dari jumlah barel, karburator dapat dibedakan menjadi:"
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
             android:layout_marginTop="@dimen/_5sdp"
             android:layout_marginRight="@dimen/_1sdp"
+            android:text="a. Karburator single barel"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
 
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbrmateri6_07" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="Pada karburator single barel, semua kebutuhan bahan bakar pada berbagai putaran mesin dilayani oleh satu barel. Padahal pada putaran mesin rendah, diameter venturi yang besar akan lebih lambat menghasilkan tenaga dibanding diameter venturi yang kecil. Sebaliknya diameter venturi yang kecil hanya mampu memenuhi kebutuhan bahan bakar pada putaran mesin tertentu, tetapi pada putaran rendah lebih cepat menghasilkan tenaga. Untuk mengatasi permasalahan tersebut maka diciptakan karburator double barel."
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
             android:layout_marginTop="@dimen/_5sdp"
             android:layout_marginRight="@dimen/_1sdp"
-
+            android:text="b. Karburator double barel"
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:src="@drawable/gbrmateri6_08" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_50sdp"
             android:layout_marginTop="@dimen/_5sdp"
             android:layout_marginRight="@dimen/_1sdp"
-
+            android:text="Pada putaran rendah, karburator double barel cepat menghasilkan tenaga (output) karena yang bekerja hanya primary venturi yang mempunyai diameter venturi kecil. Pada putaran tinggi, baik prymary maupun secondary venturi bekerja bersama-sama sehingga output yang dicapai akan tinggi karena total diameter venturinya besar. Disamping itu kecepatan aliran maksimal pada venturi karburator double barel dibanding karburator single barel lebih kecil sehingga kerugian gesekannyapun lebih kecil."
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
+
     </LinearLayout>
 </ScrollView>
