@@ -19,13 +19,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         bookCard = (CardView) findViewById(R.id.card1);
         silabusCard = (CardView) findViewById(R.id.card2);
         quizCard = (CardView) findViewById(R.id.card3);
-        videoCard = (CardView) findViewById(R.id.card4);
-        profilCard = (CardView) findViewById(R.id.card5);
+
+        profilCard = (CardView) findViewById(R.id.card4);
 
         bookCard.setOnClickListener(this);
         silabusCard.setOnClickListener(this);
         quizCard.setOnClickListener(this);
-        videoCard.setOnClickListener(this);
+
         profilCard.setOnClickListener(this);
 
     }
@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.card1 : i = new Intent(this, SilabusActivity.class);startActivity(i);break;
             case R.id.card2 : i = new Intent(this, MateriMenuActivity.class);startActivity(i);break;
             case R.id.card3 : i = new Intent(this,QuizActivity.class);startActivity(i);break;
-            case R.id.card4 : i = new Intent(this,VideoActivity.class);startActivity(i);break;
-            case R.id.card5 : i = new Intent(this,ProfileActivity.class);startActivity(i);break;
+
+            case R.id.card4 : i = new Intent(this,ProfileActivity.class);startActivity(i);break;
             default:break;
         }
     }
