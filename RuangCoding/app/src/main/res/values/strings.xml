@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ruang Coding</string>
+    <string name="link1">
+        <a href="https://youtu.be/1kKNJr_5tY8">Klik Link Ini</a>
+    </string>
+    <string name="link2">
+        <a href="https://youtu.be/J4aAP68QRB8">Klik Link Ini</a>
+    </string>
+    <string name="link3">
+        <a href="https://youtu.be/B1bmMmAmLlU">Klik Link Ini</a>
+    </string>
+</resources>
