@@ -48,7 +48,7 @@
             android:layout_gravity="center"
             android:layout_marginLeft="@dimen/_5sdp"
             android:layout_marginRight="@dimen/_5sdp"
-            android:src="@drawable/gbrmateri1" />
+            android:src="@drawable/gbrmateri6" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -89,6 +89,14 @@
             android:text="Byte adalah bagian terkecil yang dapat dialamatkan dalam memori. Byte merupakan sekumpulan bit yang secara konvensional terdiri atas kombinasi delapan bit. Satu byte digunakan untuk mengkodekan satu buah karakter dalam memori. Contoh: Kode Ascii untuk J ialah 10101010. Jadi byte adalah kumpulan bit yang membentuk satu karakter (huruf, angka, atau tanda). Dengan kombinasi 8 bit, dapat diperoleh 256 karakter (= 2 pangkat 8)."
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_140sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:src="@drawable/gbrmateri7" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -136,7 +144,7 @@
             android:layout_gravity="center"
             android:layout_marginLeft="@dimen/_5sdp"
             android:layout_marginRight="@dimen/_5sdp"
-            android:src="@drawable/gbrmateri2" />
+            android:src="@drawable/gbrmateri8" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -164,7 +172,7 @@
             android:layout_gravity="center"
             android:layout_marginLeft="@dimen/_5sdp"
             android:layout_marginRight="@dimen/_5sdp"
-            android:src="@drawable/gbrmateri3" />
+            android:src="@drawable/gbrmateri9" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -193,7 +201,7 @@
             android:layout_marginLeft="@dimen/_5sdp"
             android:layout_marginTop="@dimen/_5sdp"
             android:layout_marginRight="@dimen/_5sdp"
-            android:src="@drawable/gbrmateri4" />
+            android:src="@drawable/gbrmateri11" />
 
         <TextView
             android:layout_width="fill_parent"
@@ -207,6 +215,7 @@
             android:textColor="@color/grey"
             android:textSize="@dimen/_12sdp"
             android:textStyle="bold" />
+
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"

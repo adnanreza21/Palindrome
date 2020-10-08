@@ -4,47 +4,109 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
     tools:context=".kuis.ResultQuizActivity">
-    <RelativeLayout
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
         <TextView
-            android:layout_alignParentTop="true"
-            android:background="@color/bluetext"
             android:id="@+id/txt22"
-            android:textAlignment="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
             android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@color/bluetext"
             android:text="Kuis"
-            android:textSize="@dimen/_20sdp"
-            android:textStyle="bold"
-            android:textColor="@color/white"/>
-        <TextView
-            android:layout_marginTop="@dimen/_70sdp"
-            android:gravity="center"
-            android:layout_below="@id/txt22"
+            android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="@dimen/_37sdp"
-            android:text="Nilaimu : "
-            android:layout_width="match_parent"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textScore"/>
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:text="Petunjuk Mengerjakan Kuis"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="1. Kuis terdiri dari 15 soal pertanyaan ganda dengan pilihan A, B, C, D, dan E."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="2. Nilai maksimal dari kuis ini adalah 100."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="3. Kuis tidak dapat kembali ke soal sebelumnya pastikan Anda menjawabnya dengan yakin."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="4. Waktu untuk mengerjakan kuis adalah 30 menit."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="5. Setelah selesai mengerjakan kuis silahkan pilih tombol “Submit” untuk mengirim nilai Anda melalui aplikasi Gmail."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_1sdp"
+            android:text="6. Pastikan Anda sudah melakukan login pada aplikasi Gmail Anda."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp" />
 
         <Button
-            android:textAllCaps="false"
-            android:layout_marginTop="@dimen/_50sdp"
-            android:layout_below="@id/textScore"
-            android:id="@+id/but1"
-            android:textSize="@dimen/_20sdp"
-            android:textColor="@color/birutua"
-            android:text="Try Again"
-            android:background="@drawable/custom_button_white"
+            android:id="@+id/mulai"
             android:layout_width="@dimen/_120sdp"
-            android:onClick="onClick"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"/>
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_80sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:background="@drawable/custom_button_blue"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Mulai"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20sdp" />
 
-    </RelativeLayout>
+    </LinearLayout>
 </ScrollView>

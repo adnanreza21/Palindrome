@@ -101,7 +101,7 @@
                 android:layout_marginRight="@dimen/_10sdp"
                 android:layout_marginBottom="@dimen/_1sdp"
                 android:gravity="start"
-                android:text="1.0"
+                android:text="2.0"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_15sdp" />
 
