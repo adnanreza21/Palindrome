@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/grey"
+        android:textColorHint="@color/grey"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:background="@color/white"
+        android:padding="@dimen/_7sdp"
+        android:textSize="@dimen/_16sdp"
+        android:hint="Masukkan Kata"
+        android:textAlignment="center"
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/cek"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext"
+        android:background="@drawable/custom_button_blue"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="@dimen/_8sdp"
+        android:text="Palindrome Check"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16sdp" />
+
+</RelativeLayout>
